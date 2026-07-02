@@ -1,40 +1,67 @@
-# 🐼 Playwright Panda
+# 🎭 Playwright Panda
 
-A modern UI test automation framework built using **Playwright**, **C#**, and **NUnit**.
+A personal Playwright learning repository where I practice browser automation using Playwright and JavaScript.
 
-## 🚀 Features
+## 📖 About
 
-* Playwright for browser automation
-* NUnit test framework
-* Page Object Model (POM)
-* Reusable test components
-* Cross-browser support
-* Screenshot capture on failure
-* Scalable framework structure
-* CI/CD ready
+This repository documents my Playwright learning journey. It contains hands-on examples, automation exercises, and small projects as I explore Playwright from the basics to advanced concepts.
 
-## 🛠️ Tech Stack
+## 🚀 Tech Stack
 
-* C#
-* .NET
-* Playwright
-* NUnit
-* GitHub
+- Playwright
+- JavaScript (Node.js)
+- Visual Studio Code
+- Git & GitHub
 
-## 📂 Project Structure
+## 📂 Repository Structure
 
-Pages/
-Tests/
-Utilities/
-Config/
-TestData/
-Reports/
-Screenshots/
+```
+tests/
+├── Basics
+├── Locators
+├── Assertions
+├── Actions
+├── Waits
+├── Frames
+├── Windows
+├── API Testing
+├── Page Object Model
+└── Practice
+```
 
-## ▶️ Running Tests
+## 📚 Topics Covered
 
-dotnet test
+- Browser Launch
+- Browser Context
+- Pages
+- Locators
+- Assertions
+- Mouse & Keyboard Actions
+- Auto Waiting
+- Handling Alerts
+- Frames
+- Multiple Tabs & Windows
+- File Upload & Download
+- API Testing
+- Page Object Model (POM)
+- Fixtures
+- Hooks
+- Parallel Execution
+- Screenshots & Videos
+- Trace Viewer
+- CI/CD (Upcoming)
 
 ## 🎯 Goal
 
-To build a maintainable and scalable automation framework while practising modern QA automation techniques and industry best practices.
+To build a strong foundation in Playwright by creating practical automation examples and continuously improving my testing skills.
+
+## 📝 Progress
+
+- ✅ Playwright Installation
+- ✅ Project Setup
+- ✅ Browser Launch
+- ⏳ More topics coming soon...
+
+---
+
+⭐ Feel free to explore the repository and follow along with my Playwright learning journey!
