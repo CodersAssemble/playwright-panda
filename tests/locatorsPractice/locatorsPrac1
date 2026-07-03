@@ -1,0 +1,14 @@
+import test, {chromium, expect} from '@playwright/test';
+(async ()=>{
+const browser = await chromium.launch({
+    headless : false
+});
+const browserInstance = await browser.newContext();
+const page = await browserInstance.newPage();
+await page.goto("https://practicetestautomation.com/", {waitUntil : 'domcontentloaded'});
+await page.locator('#menu-item-20').getByRole('link',{name:'Practice'}).click();
+const testLoginLink = page.getByRole('link',{name:'Test Login Page'});
+await expect(testLoginLink).toBeVisible();
+await testLoginLink.click();
+await browser.close();
+})();
